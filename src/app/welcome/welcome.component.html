@@ -1,0 +1,16 @@
+<div class="wrapper">
+    <h1>Welcome to Online Grocers App!</h1>
+    <div id="formContent">
+        <h3>Please select who you are?</h3>
+        <form>
+          <button routerLink='shopper' class="btn btn-dark btn-lg" type="button" name="user" ><a [routerLink]="['/user']">USER</a></button>
+          
+          <button routerLink='employee' class="btn btn-dark btn-lg" type="button" name="employee"><a [routerLink]="['/signin']">EMPLOYEE</a></button>
+          <button routerLink='admin' class="btn btn-dark btn-lg" type="button" name="admin"><a [routerLink]="['/adminsignin']">ADMIN</a></button>
+        </form>
+        <h3 class="text-center" style="background-color:rgba(211, 105, 235, 0.434)">Sign in is mandatory if you are A new User Click On Sign Up and Create Account</h3>
+        <button type="button" class="btn btn-primary">SignIn</button>
+        <button type="button" class="btn btn-primary">Register</button>
+    </div>
+  </div>
+  

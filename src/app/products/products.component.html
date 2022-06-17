@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+  <body>
+      <h1 class="text-center" style="background-color:rgba(250, 142, 84, 0.776)">Welcome TO Online Groceries</h1>
+      <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <input type="text" placeholder="Search..">
+      </div>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/prod01.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/prod1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/prod2.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <div class="container-fluid">
+      <div class="row align-items-center">
+        <div class="col">
+          <div class="card">
+            <img src="assets/prod1.jpg" alt="" height="80%" width="100%">
+            <i>fresh vegetables are the means by which humans have become  as a source of food.</i>
+             <br>
+             
+             <button class="btn btn-primary" type="submit" >READ MORE</button> 
+             <button class="btn btn-danger" type="submit" >120₹</button>
+             <button type="button" class="btn btn-secondary"><a [routerLink]="['/cart']">Add To Cart</a></button> 
+          
+             </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/prod2.jpg" alt="" height="50%" width="100%">
+            
+            <i>Buy fresh fruits & healthy fruits online at best price from this best fruit shop & fill your fruit basket.</i>
+            <br>
+             
+             <button class="btn btn-primary" type="submit" ><a href="https://www.google.co.in/search?q=groceries&sxsrf=ALiCzsanzv3WLwCh86fKemogV1AI7NdJSA:1654674162262&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjfhqTNrZ34AhVzR2wGHdxnBSoQ_AUoAnoECAQQBA&biw=1536&bih=722&dpr=1.25#imgrc=Qp4VeLv3tM5Z3M">ReadMore</a></button>
+             <button class="btn btn-danger" type="submit" >150₹</button> 
+             <button type="button" class="btn btn-secondary"><a [routerLink]="['/cart']">Add To Cart</a></button>
+             </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/prod3.jpg" alt="" height="40%" width="90%">
+            <i>Personal care or cosmetic products across the world is a kind of consumer-oriented business which tries to cop up with the latest requirements of the people.</i>
+             <br>
+             <button class="btn btn-primary" type="submit" >READ MORE</button>
+             <button class="btn btn-danger" type="submit" >500₹</button> 
+             <button type="button" class="btn btn-secondary"><a [routerLink]="['/cart']">Add To Cart</a></button>
+             </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/prod4.jpg" alt="" height="70%" width="90%">
+            <i>There are many different oral care products you can get today.</i>
+            <br>
+             
+             
+            <button class="btn btn-danger" type="submit" >300₹</button> 
+            
+            <button type="button" class="btn btn-primary">Read More</button>
+             <button class="btn btn-primary" type="secondary" ><a [routerLink]="['/cart']">Add To Cart</a></button> 
+          </div>
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col">
+          <div class="card">
+            <img src="assets/prod5.jpg" alt="" height="70%" width="100%">
+            <i>Given the above explanations, it is certainly clear that pure ghee is a healthier alternative to refined oils.</i>
+             <br>
+             
+             <button class="btn btn-primary" type="submit" >READ MORE</button> 
+             <button class="btn btn-danger" type="submit" >900₹</button> 
+             <button type="button" class="btn btn-secondary"><a [routerLink]="['/cart']">Add To Cart</a></button>
+             </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/prod6.jpg" alt="" height="50%" width="100%">
+            <i>Cumin, turmeric, coriander, dry mango, and saffron are some single ground and flake spices packaged by MDH.</i>
+            <br>
+             
+             <button class="btn btn-primary" type="submit" >READ MORE</button>
+             <button class="btn btn-danger" type="submit" >100₹</button> 
+             <button type="button" class="btn btn-secondary"><a [routerLink]="['/cart']">Add To Cart</a></button>
+             </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/prod7.jpg" alt="" height="55%" width="80%">
+            <i>Sugary cookies, fattening potato chips, and salt-bomb beef sticks are not the only items that come wrapped for your convenience.</i>
+             <br>
+             <button class="btn btn-primary" type="submit" >READ MORE</button>
+             <button class="btn btn-danger" type="submit" >90₹</button> 
+             <button type="button" class="btn btn-secondary"><a [routerLink]="['/cart']">Add To Cart</a></button>
+             </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/prod8.jpg" alt="" height="70%" width="90%">
+            <i>Dairy products include: cow milk or milk from other animals and their dairy products; yoghurts, fermented milk, soft or hard cheese Choose semi-skimmed milk.</i>
+            <br>
+             
+             
+            <button class="btn btn-danger" type="submit" >125₹</button> 
+         
+             <button class="btn btn-primary" type="submit" >READ MORE</button> 
+             <button type="button" class="btn btn-secondary"><a [routerLink]="['/cart']">Add To Cart</a></button>
+             </div>
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col">
+          <div class="card">
+            <img src="assets/prod9.jpg" alt="" height="80%" width="100%">
+            <i>Rice, edible starchy cereal grain and the plant by which it is produced. </i>
+             <br>
+             
+             <button class="btn btn-primary" type="submit" >READ MORE</button> 
+             <button class="btn btn-danger" type="submit" >1000₹</button> 
+             <button type="button" class="btn btn-secondary"><a [routerLink]="['/cart']">Add To Cart</a></button>
+             </div>
+        </div>
+        <div class="col">
+            <img src="assets/prod10.jpg" alt="" height="75%" width="100%">
+            <i>Tea and coffee are the two most common beverages in the world.</i>
+            <br>
+             
+             <button class="btn btn-primary" type="submit" >READ MORE</button>
+             <button class="btn btn-danger" type="submit" >275₹</button> 
+             <button type="button" class="btn btn-secondary"><a [routerLink]="['/cart']">Add To Cart</a></button>
+        </div>
+        <div class="col">
+            <img src="assets/prod11.jpg" alt="" height="40%" width="90%">
+            <i>Aashirvaad whole wheat atta is made of zero per cent maida and 100% atta, which makes it extremely nutritious since its packed with health benefits.</i>
+             <br>
+             <button class="btn btn-primary" type="submit" >READ MORE</button>
+             <button class="btn btn-danger" type="submit" >1250₹</button> 
+             <button type="button" class="btn btn-secondary"><a [routerLink]="['/cart']">Add To Cart</a></button>
+           
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/prod12.jpg" alt="" height="80%" width="100%">
+            <i>There is an extensive collection of finely crafted dinnerwares, tea-sets, glassware and cutlery. Smaller kitchen essentials such as storage boxes, water bottles, knifes and more are also available.</i>
+            <br>
+             
+             
+            <button class="btn btn-danger" type="submit" >2199₹</button> 
+    
+             <button class="btn btn-primary" type="submit" >READ MORE</button> 
+             <button type="button" class="btn btn-secondary"><a [routerLink]="['/cart']">Add To Cart</a></button>
+             </div>
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col">
+          <div class="card">
+            <img src="assets/prod13.jpeg" alt="" height="70%" width="100%">
+            <i>Products Exotic fruits Exotic fruits Exotics include fruit like lemon, grapefruit, kiwi, mandarin, orange and pomegranate.</i>
+             <br>
+             
+             <button class="btn btn-primary" type="submit" >READ MORE</button> 
+             <button class="btn btn-danger" type="submit" >179₹</button> 
+             <button type="button" class="btn btn-secondary"><a [routerLink]="['/cart']">Add To Cart</a></button>
+            
+             </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/prod14.jpg" alt="" height="90%" width="100%">
+            <i>Buy salt, sugar and jaggery online at best prices online. Great selection of brands of salt & sugar, delivered</i>
+            <br>
+             
+             <button class="btn btn-primary" type="submit" >READ MORE</button>
+             <button class="btn btn-danger" type="submit" >79₹</button> 
+             <button type="button" class="btn btn-secondary"><a [routerLink]="['/cart']">Add To Cart</a></button>
+             </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/prod15.jpg" alt="" height="60%" width="90%">
+            <i>Pickle and chutney both are made from fruits and vegetables and often look similar.</i>
+             <br>
+             <button class="btn btn-primary" type="submit" >READ MORE</button>
+             <button class="btn btn-danger" type="submit" >191₹</button> 
+             <button type="button" class="btn btn-secondary"><a [routerLink]="['/cart']">Add To Cart</a></button>
+           
+             </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/prod16.jpg" alt="" height="75%" width="80%">
+            <i>best all ever cleaning product</i>
+             <br>
+             <button class="btn btn-danger" type="submit" >89₹</button> 
+             <button class="btn btn-primary" type="submit" >READ MORE</button>
+             <button type="button" class="btn btn-secondary"><a [routerLink]="['/cart']">Add To Cart</a></button>
+             </div> 
+        </div>
+      </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+  <footer class="text-center text-lg-start bg-light text-muted">
+   
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        
+        <div class="row mt-3">
+        
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>INSRUCTIONS
+            </h6>
+            <p>
+              FIND EVERYTHING YOU NEED<br>
+              USE PROPER INTERNET CONNECTION<br>
+              USE PROPER LAPTOP OR MOBILE<br>
+              USE PROPER DELIVERY ADDRESS<br>
+              SHOP AS YOU NEED<br>
+            </p>
+          </div>
+         
+        
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem me-3"></i>ONLINE GROCERIES APP
+              </h6>
+              <p>
+                WE PROVIDE GOOD FOOD,GREAT PRICES,AWESOME SERVICE!!.STAY HOME STAY SAFE
+              </p>
+            </div>
+   
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            
+            <h6 class="text-uppercase fw-bold mb-4">
+              Contact
+            </h6>
+            <p><i class="fas fa-home me-3"></i>SURKUTE OMKAR NAVNATH </p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              omkar1999surkute@gmail.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i>84858448449</p>
+            <p><i class="fas fa-print me-3"></i>7798062263</p>
+          </div>
+          
+        </div>
+       
+      </div>
+    </section>
+   
+    <div class="text-center p-4" style="background-color: rgba(248, 205, 50, 0.845);">
+      © 2022 Copyright:
+      <a class="text-reset fw-bold" href="">SURKUTE OMKAR NAVNATH</a>
+    </div>
+   
+  </footer>
+</html>
